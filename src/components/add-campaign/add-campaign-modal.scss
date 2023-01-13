@@ -1,0 +1,25 @@
+@import 'styles/variables.scss';
+
+.add-campaign-modal .modal-content {
+    width: 730px;
+    background: $color_4;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 24px;
+}
+
+.add-campaign-modal .add-campaign-modal-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.confirmation-saving .add-campaign-modal-title {
+    color: $color_8;
+}
+
+.add-campaign-modal-close {
+    cursor: pointer;
+    width: 20px;
+}
